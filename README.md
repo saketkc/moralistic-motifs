@@ -11,6 +11,8 @@ interdependence. TFFMs have been assessed on ChIP-seq data sets coming from the 
 they can perform better than both PWMs and the dinucleotide weight matrix extension in discriminating ChIP-seq from
 background sequences
 
+2. [Modeling the specificity of protein-dna interactions - Stormo](http://link.springer.com/article/10.1007%2Fs40484-013-0012-4#/page-1)
+
 ## Methods for TFBS prediction
 
 - Phylogenetic Footprinting

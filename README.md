@@ -18,6 +18,22 @@ Review of motif finders with a focus on phylogenetic footprinting
 factor binding sites: generalizing the position weight matrix](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0009722) 
 
   > I describe a straightforward generalization of the PWM model, that considers frequencies of dinucleotides instead of individual nucleotides. Unlike previous efforts, this method considers all dinucleotides within an extended binding region, and does not make an attempt to determine a priori the significance of particular dinucleotide correlations. I describe how to use a “dinucleotide weight matrix” (DWM) to predict binding sites, dealing in particular with the complication that its entries are not independent probabilities. Benchmarks show, for many factors, a dramatic improvement over PWMs in precision of predicting known targets. In most cases, significant further improvement arises by extending the commonly defined “core motifs” by about 10bp on either side
+  
+3. Variable Width permitting representation/methods 
+  1. [Prediction of nuclear hormone receptor response elements](http://press.endocrine.org/doi/full/10.1210/me.2004-0101)
+  
+      >New bioinformatics methods for the analysis of regulatory sequences are required to address the complex properties         associated with known regulatory elements targeted by the receptors because the standard methods for binding site           prediction fail to reflect the diverse target site configurations. We have constructed a flexible Hidden Markov Model       framework capable of predicting NHR binding sites. The model allows for variable spacing and orientation of      half-sites. 
+  2. [Discovery of novel tumor suppressor p53 response elements using information theory](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2441790/pdf/gkn189.pdf)
+      
+      >An accurate method for locating genes under tumor suppressor p53 control that is based on a wellestablished mathematical theory and built using naturally occurring, experimentally proven p53 sites is essential in understanding the complete p53 network. We used a molecular information theory approach to create a flexible model for p53 binding.
+By searching around transcription start sites in human chromosomes 1 and 2, we predicted 16
+novel p53 binding sites and experimentally demonstrated that 15 of the 16 (94%) sites were bound by
+p53.
+
+  3. [The p53HMM algorithm: using profile hidden markov models to detect p53-responsive genes](http://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-10-111)
+  
+    >A computational method (called p53HMM) is presented that utilizes Profile Hidden Markov Models (PHMMs) to estimate the relative binding affinities of putative p53 response elements (REs), both p53 single-sites and cluster-sites. These models incorporate a novel "Corresponded Baum-Welch" training algorithm that provides increased predictive power by exploiting the redundancy of information found in the repeated, palindromic p53-binding motif. The predictive accuracy of these new models are compared against other predictive models, including position specific score matrices (PSSMs, or weight matrices). We also present a new dynamic acceptance threshold, dependent upon a putative binding site's distance from the Transcription Start Site (TSS) and its estimated binding affinity. This new criteria for classifying putative p53-binding sites increases predictive accuracy by reducing the false positive rate.
+
 
 ## Reviews
 

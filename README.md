@@ -1,6 +1,21 @@
 # moralistic-motifs
 Review of motif finders with a focus on phylogenetic footprinting
 
+## Motif Representation
+1. [Improved models for transcription factor binding site identification using nonindependent interactions](http://www.genetics.org/content/genetics/early/2012/04/11/genetics.112.138685.full.pdf)
+
+  >The specificity of most TFs is currently modeled using
+  position weight matrices (PWMs) that assume the positions within a binding site
+  contribute independently to binding affinity for any site. Extensive, highthroughput
+  quantitative binding assays let us examine, for the first time, the
+  independence assumption for many TFs.  We introduce a binding energy model (BEM) that can include
+  energy parameters for non-independent contributions to binding affinity. We
+  show that in most cases where a PWM is not sufficient, a BEM that includes
+  energy parameters for adjacent di-nucleotide contributions models the specificity
+  very well. Having more accurate models of specificity greatly improves the
+  interpretation of in vivo TF localization data, such as from ChIP-seq experiments. 
+2. 
+
 ## Reviews
 
 1. [The Next Generation of Transcription Factor Binding Site Prediction

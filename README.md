@@ -2,7 +2,7 @@
 Review of motif finders with a focus on phylogenetic footprinting
 
 ## Motif Representation
-1. [Improved models for transcription factor binding site identification using nonindependent interactions](http://www.genetics.org/content/genetics/early/2012/04/11/genetics.112.138685.full.pdf)
+1. Dinucleotide Dependencies(using PBM) [Improved models for transcription factor binding site identification using nonindependent interactions](http://www.genetics.org/content/genetics/early/2012/04/11/genetics.112.138685.full.pdf)
 
   >The specificity of most TFs is currently modeled using
   position weight matrices (PWMs) that assume the positions within a binding site
@@ -14,7 +14,10 @@ Review of motif finders with a focus on phylogenetic footprinting
   energy parameters for adjacent di-nucleotide contributions models the specificity
   very well. Having more accurate models of specificity greatly improves the
   interpretation of in vivo TF localization data, such as from ChIP-seq experiments. 
-2. 
+2. Dinucleotide Weight Matrices(DWM) [Dinucleotide weight matrices for predicting transcription
+factor binding sites: generalizing the position weight matrix](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0009722) 
+
+  > I describe a straightforward generalization of the PWM model, that considers frequencies of dinucleotides instead of individual nucleotides. Unlike previous efforts, this method considers all dinucleotides within an extended binding region, and does not make an attempt to determine a priori the significance of particular dinucleotide correlations. I describe how to use a “dinucleotide weight matrix” (DWM) to predict binding sites, dealing in particular with the complication that its entries are not independent probabilities. Benchmarks show, for many factors, a dramatic improvement over PWMs in precision of predicting known targets. In most cases, significant further improvement arises by extending the commonly defined “core motifs” by about 10bp on either side
 
 ## Reviews
 

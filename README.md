@@ -37,14 +37,17 @@ p53.
 
 ## Reviews
 
-1. [The Next Generation of Transcription Factor Binding Site Prediction
+1. [Evaluation of methods for modeling transcription factor sequence specificity - Weirauch and Hughes](http://www.nature.com/nbt/journal/v31/n2/pdf/nbt.2486.pdf) 
+    > . Here we applied 26 such approaches to in vitro protein binding microarray data for 66 mouse TFs belonging to various families. For nine TFs, we also scored the resulting motif models on in vivo data, and found that the best in vitro–derived motifs performed similarly to motifs derived from the in vivo data.
+
+2. [The Next Generation of Transcription Factor Binding Site Prediction
 ](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003214) - 2013 
   > We present a new graphical representation of the motifs that convey properties of position
   interdependence. TFFMs have been assessed on ChIP-seq data sets coming from the ENCODE project, revealing that
   they can perform better than both PWMs and the dinucleotide weight matrix extension in discriminating ChIP-seq from
   background sequences
 
-2. [Modeling the specificity of protein-dna interactions - Stormo](http://link.springer.com/article/10.1007%2Fs40484-013-0012-4#/page-1)
+3. [Modeling the specificity of protein-dna interactions - Stormo](http://link.springer.com/article/10.1007%2Fs40484-013-0012-4#/page-1)
 
 ## Methods for TFBS prediction
 
@@ -61,3 +64,9 @@ p53.
   1. [oPOSSUM: identification of over-represented transcription factor binding sites
 in co-expressed genes - Sui, Walsh](http://nar.oxfordjournals.org/content/33/10/3154.full-text-lowres.pdf)
   2. [oPOSSUM: integrated tools for analysis of regulatory motif over-representation- Ho Sui, Wasserman](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1933229/pdf/gkm427.pdf) 
+  
+- Deep Learning
+  1. [Predicting the sequence specificities of DNA- and RNA-binding proteins by deep learning - ](http://www.nature.com/nbt/journal/v33/n8/pdf/nbt.3300.pdf)
+  
+- Beyond PWMs
+  1. [Improved models for transcription factor binding site identification using non-independent interactions - Zhao and Stormo](http://www.genetics.org/content/191/3/781.full.pdf)

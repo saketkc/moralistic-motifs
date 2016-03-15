@@ -40,6 +40,7 @@ discovery of transcription factor binding sites \cite{tompa_assessing_2005}
 
 \textbf{Section Organization}: See table \ref{tab:table2}
 
+\textbf{Progress tracking}: \url{https://trello.com/b/8hLZBkKA/review-paper} 
 
 \newpage
 
@@ -121,36 +122,48 @@ TRAWLER & Regulatory motif discovery pipeline & Uses a suffix-tree implementatio
 \bigskip
 \ytl{$14^{th}$ March}{Deliverables proposed}
 \bigskip
-\ytl{$21^{st}$ March}{Page 1-2: Introduction:\footnotesize\begin{itemize}\itemsep0em 
-\item Why TFBSs matter? : Biological motivation
+\ytl{$22^{nd}$ March}{Page 1-2: Introduction:\footnotesize\begin{itemize}\itemsep0em 
+\item Why TFBSs matter? : Biological motivation (Relevant review: \cite{wray_evolutionary_2007}
 \item TFBS prediction : Computational Challenges(Hints from review article \cite{weirauch_evaluation_2013})
 %\item Non consensus of numerous methods: Implications(Different methods
 %suit different experiments: Hints from review article \cite{weirauch_evaluation_2013})
 %\item Section organization
 \end{itemize}}
 \bigskip
-\ytl{$2^{nd}$ April}{Page 3-5:TFBS finding: A two step approach: \footnotesize\begin{enumerate}\itemsep0em 
-\item Representation of Motif(Consensus Based or Profile Based) [Comprehensive Review: \cite{stormo_modeling_2013}]\begin{itemize}
-\item Position Weight Matrices (PWMs) \cite{stormo_dna_2000}, with gaps and correlation \cite{hertz_identification_1990,hertz_identifying_1999}
-\item Dinucleotide Weight Matrices(DWMs) \cite{siddharthan_dinucleotide_2010}
-\item Other Variable width permitting models \cite{sandelin_prediction_2005,lyakhov_discovery_2008,riley_p53hmm_2009}
-\item Regression Based models \cite{wang_interaction-dependent_2007,annala_linear_2011}
-\item Energy Modeling \cite{zhao_inferring_2009}
-\end{itemize}
+\ytl{$1^{st}$ April}{Page 3-4:TFBS discovery methods overview: A two step approach: \footnotesize\begin{enumerate}\itemsep0em 
+\item Representation of Motif(Consensus Based or Profile Based) [Comprehensive Review: \cite{stormo_modeling_2013}]
+%\begin{itemize}
+%\item Position Weight Matrices (PWMs) \cite{stormo_dna_2000}, with gaps and %correlation \cite{hertz_identification_1990,hertz_identifying_1999}
+%\item Dinucleotide Weight Matrices(DWMs) \cite{siddharthan_dinucleotide_2010}
+%\item Other Variable width permitting models %\cite{sandelin_prediction_2005,lyakhov_discovery_2008,riley_p53hmm_2009}
+%\item Regression Based models \cite{wang_interaction-dependent_2007,annala_linear_2011}
+%\item Energy Modeling \cite{zhao_inferring_2009}
+%\end{itemize}
 \item Identifying binding sites given a motif representation
 \end{enumerate}}
 \bigskip
-\ytl{$17^{th}$ April}{Page: 6-10 Motif Discovery:
+\ytl{$15^{th}$ April}{Page: 6-10 TFBS discovery methods:
 \begin{itemize}
-\item Motif discovery \begin{itemize}
-\item Comparative Approaches , See table \ref{tab:table1}
-\item \textit{de-novo} approaches
+\item Comparative approaches which do not account for conservation information, See table \ref{tab:table1} (Just an overview)
+\item Motif discovery and Phylogenetic footprinting various approaches, the relevant math involved, their shortcomings and biological relevance/generalization(Major chunk of discussion):
+\begin{itemize}
+\item INSIGHT
+\item EMnEM/PhyME
+\item CENTIPEDE
+\item PhyloGibbs
+\item MONKEY
+\item Kellis et al.
+\item TFEM
+\item Consensus 
+\item Consite
 \end{itemize}
-\item Motif discovery and Phylogenetic footprinting \begin{itemize}
-\item See table \ref{tab:table1}
-\end{itemize}
-\end{itemize}
-}
+\end{itemize}}
+
+%\item Motif discovery and Phylogenetic footprinting \begin{itemize}
+%\item See table \ref{tab:table1}
+%\end{itemize}
+%\end{itemize}
+
 \end{minipage}
 \end{table}
 
@@ -158,13 +171,13 @@ TRAWLER & Regulatory motif discovery pipeline & Uses a suffix-tree implementatio
 \centering
 \footnotesize
 \begin{minipage}[t]{.7\linewidth}
-\ytl{$24^{th}$ April}{Discussion: \begin{itemize}
-\item Recommendations for what method to choose for what type of data
+\ytl{$22^{nd}$ April}{Discussion: \begin{itemize}
+\item Recommendations for what method to choose for what type of data that capture more information biologically
 \item Recommendation for best practices? (steps to follow to minimize false positive motifs)
 \item Overview of statistics used for assessing motif(tool performance) quality
 \end{itemize}}
 \bigskip
-\ytl{$30^{th}$ April}{Conclusion}
+\ytl{$29^{th}$ April}{Conclusion}
 \rule{\linewidth}{1pt}%
 \end{minipage}%
 \end{table}

@@ -54,7 +54,11 @@ factor binding sites: generalizing the position weight matrix](http://journals.p
       this interaction-dependent binding with linear regression can better explain the
       observed binding data. 
   
-6. Biophysical [Inferring binding energies from selected binding](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000590)
+6. Biophysics Inspired
+    1. [Specificity, free energy and information content in protein–DNA interactions](http://www.sciencedirect.com/science/article/pii/S0968000498011876)
+    
+        > In this paper, we do not discuss the recognition code per se, but we do present the notion of specificity in terms of equilibrium binding constants and information content.
+    2. [Inferring binding energies from selected binding](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000590)
   
     >We employ a biophysical model that accounts for the non-linear relationship between binding energy and the statistics     of selected binding sites. The model includes the chemical potential of the transcription factor, non-specific binding     affinity of the protein for DNA, as well as sequence-specific parameters that may include non-independent contributions     of bases to the interaction. 
 
